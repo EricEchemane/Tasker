@@ -1,0 +1,107 @@
+*{
+    font-family: 'roboto';
+    /* transition: .1s ease-in-out */
+}
+body{
+    background-color: #f1f2f6;
+}
+
+.rounded{
+    border-radius: 30px;
+}
+
+.rounded-1{
+    border-radius: 10px;
+}
+.neum-shadow{
+    box-shadow: 
+    5px 5px 10px rgba(0,0,0,.3),
+    -6px -6px 10px rgba(255,255,255, 1);
+}
+
+.shadow{
+    box-shadow: 
+    3px 3px 10px rgba(0,0,0,.3);
+}
+
+.soft-shadow{
+    box-shadow: 
+    2px 2px 5px rgba(0,0,0,.3);
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.border-top-primary{
+    border-top: 4px solid dodgerblue;
+}
+.border-top-success{
+    border-top: 4px solid yellowgreen;
+}
+.border-top-warning{
+    border-top: 3px solid crimson;
+}
+.border-success{
+    border: 2px solid green;
+    box-shadow: 0px 0px 0px 2px yellowgreen;
+}
+
+.border-white{
+    border: 1px solid white;
+}
+
+.d-block{
+    display: block;
+}
+
+.center-hor{
+    margin: auto;
+}
+.m-1-5{
+    margin: 1rem;
+}
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 2rem;
+}
+.m-3{
+    margin: 3rem;
+}
+.m-4{
+    margin: 4rem;
+}
+.round{
+    border-radius: 50%;
+}
+.ul li:nth-child(odd){
+    background-color: white;
+}
+.ul li:nth-child(even){
+    background-color: whitesmoke;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgrey; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
