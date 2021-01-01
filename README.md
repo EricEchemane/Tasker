@@ -2,6 +2,9 @@
 This is a react typescript based web app which is a combination of Todo and Note app.
 
 ## How to use this project?
+
+If you want to try this app, make sure you have node js and npm installed in your machine.
+
 1. Just install react in a folder with this command `npx create-react-app --template typescript tasker`
 2. Go inside the folder created. `cd tasker`
 3. When finished, install icons. `npm install @material-ui/icons`
